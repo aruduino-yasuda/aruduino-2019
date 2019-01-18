@@ -3,6 +3,7 @@
 #define ClockPin 0             // Pin connected to Pin 11 of 74HC595 (Clock SHCP)
 #define DataPin  3             // Pin connected to Pin 14 of 74HC595 (Data DS) 
 #define OEPin    2             // Pin connected to Pin 13 of 74HC595 (Output Enable OE)
+
 unsigned long endTime;         // Duration of pattern display
 int displayTime = 100;         // Time to display pattern
 byte planePin[] {7,6,5,4};     // D16 - D19 Ground for each plane  D16 - Top plane  D19 Bottom plane
